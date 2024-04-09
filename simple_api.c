@@ -7,7 +7,7 @@
 
 #define PORT 5000
 #define BUFSIZE 1024
-#define RESPONSE "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\n\r\n{\"result\": \"hello wrold\"}"
+#define RESPONSE "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\n\r\n{\"result\": \"hello world\"}"
 
 int main() {
     int server_fd, new_socket;
